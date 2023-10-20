@@ -50,7 +50,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:inputType="text"
-        android:text="請輸入玩家姓名"
+        android:hint="請輸入玩家姓名"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -88,7 +88,7 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/tv_mmora"
+        android:id="@+id/tv_m_mora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -97,12 +97,12 @@
         app:layout_constraintTop_toTopOf="@+id/tv_winner"  />
 
     <TextView
-        android:id="@+id/tv_cmora"
+        android:id="@+id/tv_c_mora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:text="電腦出拳"
-        app:layout_constraintStart_toEndOf="@+id/tv_mmora"
-        app:layout_constraintTop_toTopOf="@+id/tv_mmora" />
+        app:layout_constraintStart_toEndOf="@+id/tv_m_mora"
+        app:layout_constraintTop_toTopOf="@+id/tv_m_mora" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
